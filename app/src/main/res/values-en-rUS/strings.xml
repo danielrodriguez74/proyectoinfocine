@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">infoCine</string>
+    <string name="action_settings">Setting</string>
+    <string name="BIENVENIDOS">WELCOME</string>
+    <string name="titulo">Title:</string>
+    <string name="genero">Gender:</string>
+    <string name="fecha">Date:</string>
+    <string name="text_inicio">Here you can find information about the cinemas of the city of Pasto (Nariño), You will also find the release dates of the most anticipated films for 2019.</string>
+    <string name="inicio">Start</string>
+    <string name="salir">Exit</string>
+    <string name="estrenos">Premieres</string>
+    <string name="cines">Cinemas</string>
+    <string name="acerca_de">About</string>
+    <string name="titulo_cines">Cinemas of Pasto</string>
+    <string name="info_cinemark">Cinemark Holdings, Inc. is a chain of cinemas with operations in the United States, Argentina, Brazil, Bolivia, Chile, Colombia, Costa Rica, Curaçao, Ecuador, Peru, Paraguay, Panama, Guatemala, Honduras, Nicaragua and El Salvador. Its corporate headquarters is located in Plano, Texas, United States.</string>
+    <string name="info_royalfilms">Royal Films is a family company that started only with a theater in the heart of the city of Barranquilla, but it was not enough to place a new entertainment, but to form as a culture the love of the Colombians.</string>
+    <string name="info_valledeatriz">Cinemas is a film exhibiting company that was born in 2000, has 4 multiplex in the City of Pasto -Nariño. with capacity for more than three hundred spectators, for cinema in the Valle de Atriz Shopping Center, in the Pasto city.</string>
+    <string name="profesion">Systems Engineer</string>
+    <string name="universidad">UNIVERSITY MARIANA</string>
+    <string name="text_genero1">Action, Science Fiction</string>
+    <string name="text_fecha1">Friday, March 8, 2019</string>
+    <string name="text_genero2">Action, Fantasy, Science Fiction</string>
+    <string name="text_fecha2">April 2019</string>
+    <string name="text_fecha3">May 2019</string>
+    <string name="text_genero4">Action, Adventure, Science Fiction</string>
+    <string name="text_fecha4">June 2019</string>
+    <string name="text_genero5">Action, Drama, Triller</string>
+    <string name="text_fecha5">November 2019</string>
+</resources>

@@ -7,231 +7,566 @@
     tools:context=".FragmentEstreno">
 
     <!-- TODO: Update blank fragment layout -->
-
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical">
 
         <ImageView
             android:id="@+id/imageView"
             android:layout_width="match_parent"
-            android:layout_height="189dp"
+            android:layout_height="200dp"
             android:src="@drawable/logoppal" />
 
-        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-        xmlns:card_view="http://schemas.android.com/apk/res-auto"
-        android:layout_width="match_parent"
-        android:layout_height="149dp"
-        card_view:cardCornerRadius="4dp"
-        card_view:cardElevation="4dp"
-        card_view:cardUseCompatPadding="true">
-
-        <RelativeLayout
+        <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_centerHorizontal="true"
-            android:layout_centerInParent="true"
-            android:layout_centerVertical="true"
-            android:paddingLeft="10dp"
-            android:weightSum="1">
+            android:layout_height="wrap_content">
 
-            <TextView
-                android:id="@+id/titulo"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-
-                android:layout_alignParentStart="true"
-                android:layout_alignParentTop="true"
-                android:layout_marginTop="14dp"
-                android:text="Título:"
-                android:textColor="@android:color/black"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/genero"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentTop="true"
-                android:layout_alignStart="@+id/titulo"
-                android:layout_marginTop="41dp"
-                android:layout_weight="0.46"
-                android:text="Género:"
-                android:textColor="@android:color/black"
-                android:textStyle="bold" />
-
-            <ImageView
-                android:id="@+id/imageView"
-                android:layout_width="130dp"
-                android:layout_height="94dp"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentTop="true"
-                android:src="@drawable/capitanamarvel" />
-
-            <TextView
-                android:id="@+id/director"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentBottom="true"
-                android:layout_alignStart="@+id/titulo"
-                android:layout_marginBottom="47dp"
-                android:text="Director:"
-                android:textColor="@android:color/black"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/text1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignTop="@+id/titulo"
-                android:layout_toEndOf="@+id/genero"
-                android:text="Capitana Marvel" />
-
-            <TextView
-                android:id="@+id/text2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignTop="@+id/genero"
-                android:layout_toEndOf="@+id/genero"
-                android:text=" Acción, Ciencia Ficción" />
-
-            <TextView
-                android:id="@+id/text3"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignTop="@+id/director"
-                android:layout_toEndOf="@+id/director"
-                android:text=" Anna Boden, Ryan Fleck" />
-
-            <TextView
-                android:id="@+id/fecha"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignStart="@+id/titulo"
-                android:layout_below="@+id/director"
-                android:layout_marginTop="-39dp"
-                android:text="Fecha:"
-                android:textColor="@android:color/black"
-                android:textStyle="bold" />
-
-            <TextView
-                android:id="@+id/text4"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignTop="@+id/fecha"
-                android:layout_toEndOf="@+id/genero"
-                android:text="Viernes, 08 de Marzo de 2019"
-                android:textSize="14sp" />
-
-        </RelativeLayout>
-    </android.support.v7.widget.CardView>
-
-        <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
-            xmlns:card_view="http://schemas.android.com/apk/res-auto"
-            android:layout_width="match_parent"
-            android:layout_height="149dp"
-            card_view:cardCornerRadius="4dp"
-            card_view:cardElevation="4dp"
-            card_view:cardUseCompatPadding="true">
-
-            <RelativeLayout
+            <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_centerHorizontal="true"
-                android:layout_centerInParent="true"
-                android:layout_centerVertical="true"
-                android:paddingLeft="10dp"
-                android:weightSum="1">
+                android:orientation="vertical">
 
-                <TextView
-                    android:id="@+id/titulo2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
+                <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="149dp"
+                card_view:cardCornerRadius="4dp"
+                card_view:cardElevation="4dp"
+                card_view:cardUseCompatPadding="true">
 
-                    android:layout_alignParentStart="true"
-                    android:layout_alignParentTop="true"
-                    android:layout_marginTop="14dp"
-                    android:text="Título:"
-                    android:textColor="@android:color/black"
-                    android:textStyle="bold" />
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerInParent="true"
+                        android:layout_centerVertical="true"
+                        android:paddingLeft="10dp"
+                        android:weightSum="1">
 
-                <TextView
-                    android:id="@+id/genero2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentTop="true"
-                    android:layout_alignStart="@+id/titulo2"
-                    android:layout_marginTop="41dp"
-                    android:layout_weight="0.46"
-                    android:text="Género:"
-                    android:textColor="@android:color/black"
-                    android:textStyle="bold" />
+                        <TextView
+                            android:id="@+id/titulo"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
 
-                <ImageView
-                    android:id="@+id/imageView2"
-                    android:layout_width="105dp"
-                    android:layout_height="119dp"
-                    android:layout_alignParentEnd="true"
-                    android:layout_alignParentTop="true"
-                    android:layout_marginTop="5dp"
-                    android:src="@drawable/shazam" />
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginTop="14dp"
+                            android:text="@string/titulo"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold" />
 
-                <TextView
-                    android:id="@+id/director2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
-                    android:layout_alignStart="@+id/titulo2"
-                    android:layout_marginBottom="47dp"
-                    android:text="Director:"
-                    android:textColor="@android:color/black"
-                    android:textStyle="bold" />
+                        <TextView
+                            android:id="@+id/genero"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignStart="@+id/titulo"
+                            android:layout_marginTop="41dp"
+                            android:layout_weight="0.46"
+                            android:text="@string/genero"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold" />
 
-                <TextView
-                    android:id="@+id/text1.2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignTop="@+id/titulo2"
-                    android:layout_toEndOf="@+id/genero2"
-                    android:text="¡Shazam!" />
+                        <ImageView
+                            android:id="@+id/imageView"
+                            android:layout_width="130dp"
+                            android:layout_height="94dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentTop="true"
+                            android:src="@drawable/capitanamarvel" />
 
-                <TextView
-                    android:id="@+id/text2.2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignTop="@+id/genero2"
-                    android:layout_toEndOf="@+id/genero2"
-                    android:text=" Acción, Fantasía, Ciancia Ficción" />
+                        <TextView
+                            android:id="@+id/director"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignStart="@+id/titulo"
+                            android:layout_marginBottom="47dp"
+                            android:text="Director:"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold" />
 
-                <TextView
-                    android:id="@+id/text3.2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignTop="@+id/director2"
-                    android:layout_toEndOf="@+id/director2"
-                    android:text=" David F. Sandberg" />
+                        <TextView
+                            android:id="@+id/text1"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/titulo"
+                            android:layout_toEndOf="@+id/genero"
+                            android:text="Capitana Marvel" />
 
-                <TextView
-                    android:id="@+id/fecha2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignStart="@+id/titulo2"
-                    android:layout_below="@+id/director2"
-                    android:layout_marginTop="-39dp"
-                    android:text="Fecha:"
-                    android:textColor="@android:color/black"
-                    android:textStyle="bold" />
+                        <TextView
+                            android:id="@+id/text2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/genero"
+                            android:layout_toEndOf="@+id/director"
+                            android:text="@string/text_genero1" />
 
-                <TextView
-                    android:id="@+id/text4.2"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_alignTop="@+id/fecha2"
-                    android:layout_toEndOf="@+id/genero2"
-                    android:text="Abril de 2019"
-                    android:textSize="14sp" />
+                        <TextView
+                            android:id="@+id/text3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/director"
+                            android:layout_toEndOf="@+id/director"
+                            android:text=" Anna Boden, Ryan Fleck" />
 
-            </RelativeLayout>
-        </android.support.v7.widget.CardView>
+                        <TextView
+                            android:id="@+id/fecha"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignStart="@+id/titulo"
+                            android:layout_below="@+id/imageView"
+                            android:text="@string/fecha"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/text4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/imageView"
+                            android:layout_toEndOf="@+id/genero"
+                            android:text="@string/text_fecha1"
+                            android:textSize="14sp" />
+
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="149dp"
+                    card_view:cardCornerRadius="4dp"
+                    card_view:cardElevation="4dp"
+                    card_view:cardUseCompatPadding="true">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerInParent="true"
+                        android:layout_centerVertical="true"
+                        android:paddingLeft="10dp"
+                        android:weightSum="1">
+
+                        <TextView
+                            android:id="@+id/titulo2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginTop="14dp"
+                            android:text="@string/titulo"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/genero2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignStart="@+id/titulo2"
+                            android:layout_marginTop="41dp"
+                            android:layout_weight="0.46"
+                            android:text="@string/genero"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/imageView2"
+                            android:layout_width="105dp"
+                            android:layout_height="119dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginTop="5dp"
+                            android:src="@drawable/shazam" />
+
+                        <TextView
+                            android:id="@+id/director2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignStart="@+id/titulo2"
+                            android:layout_marginBottom="47dp"
+                            android:text="Director:"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/text1.2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/titulo2"
+                            android:layout_toEndOf="@+id/genero2"
+                            android:text="¡Shazam!" />
+
+                        <TextView
+                            android:id="@+id/text2.2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/genero2"
+                            android:layout_toStartOf="@+id/imageView2"
+                            android:text="@string/text_genero2" />
+
+                        <TextView
+                            android:id="@+id/text3.2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/director2"
+                            android:layout_toEndOf="@+id/director2"
+                            android:text=" David F. Sandberg" />
+
+                        <TextView
+                            android:id="@+id/fecha2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignStart="@+id/titulo2"
+                            android:layout_below="@+id/director2"
+                            android:layout_marginTop="-39dp"
+                            android:text="@string/fecha"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/text4.2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/fecha2"
+                            android:layout_toEndOf="@+id/genero2"
+                            android:text="@string/text_fecha2"
+                            android:textSize="14sp" />
+
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="149dp"
+                    card_view:cardCornerRadius="4dp"
+                    card_view:cardElevation="4dp"
+                    card_view:cardUseCompatPadding="true">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerInParent="true"
+                        android:layout_centerVertical="true"
+                        android:paddingLeft="10dp"
+                        android:weightSum="1">
+
+                        <TextView
+                            android:id="@+id/titulo3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginTop="14dp"
+                            android:text="@string/titulo"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/genero3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignStart="@+id/titulo3"
+                            android:layout_marginTop="41dp"
+                            android:layout_weight="0.46"
+                            android:text="@string/genero"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/imageView3"
+                            android:layout_width="126dp"
+                            android:layout_height="91dp"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignParentEnd="true"
+                            android:layout_marginBottom="3dp"
+                            android:layout_marginEnd="1dp"
+                            android:src="@drawable/vengadores" />
+
+                        <TextView
+                            android:id="@+id/director3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignStart="@+id/titulo3"
+                            android:layout_marginBottom="47dp"
+                            android:text="Director:"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/text1.3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/titulo3"
+                            android:layout_toEndOf="@+id/genero3"
+                            android:text="Vengadores: La guerra del infinito - 2ª parte" />
+
+                        <TextView
+                            android:id="@+id/text2.3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/genero3"
+                            android:layout_toEndOf="@+id/director3"
+                            android:text="@string/text_genero1" />
+
+                        <TextView
+                            android:id="@+id/text3.3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/director3"
+                            android:layout_toEndOf="@+id/director3"
+                            android:text=" Anthony Russo, Joe Russo" />
+
+                        <TextView
+                            android:id="@+id/fecha3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignStart="@+id/titulo3"
+                            android:layout_below="@+id/director3"
+                            android:layout_marginTop="-39dp"
+                            android:text="@string/fecha"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/text4.3"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/fecha3"
+                            android:layout_toEndOf="@+id/genero3"
+                            android:text="@string/text_fecha3"
+                            android:textSize="14sp" />
+
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="149dp"
+                    card_view:cardCornerRadius="4dp"
+                    card_view:cardElevation="4dp"
+                    card_view:cardUseCompatPadding="true">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerInParent="true"
+                        android:layout_centerVertical="true"
+                        android:paddingLeft="10dp"
+                        android:weightSum="1">
+
+                        <TextView
+                            android:id="@+id/titulo4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginTop="14dp"
+                            android:text="@string/titulo"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/genero4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignStart="@+id/titulo4"
+                            android:layout_marginTop="41dp"
+                            android:layout_weight="0.46"
+                            android:text="@string/genero"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/imageView4"
+                            android:layout_width="105dp"
+                            android:layout_height="119dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginTop="5dp"
+                            android:src="@drawable/xmen" />
+
+                        <TextView
+                            android:id="@+id/director4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignStart="@+id/titulo4"
+                            android:layout_marginBottom="47dp"
+                            android:text="Director:"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/text1.4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/titulo4"
+                            android:layout_toEndOf="@+id/genero4"
+                            android:text="X-Men: Fénix Oscura" />
+
+                        <TextView
+                            android:id="@+id/text2.4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/genero4"
+                            android:layout_toStartOf="@+id/imageView4"
+                            android:text="@string/text_genero4" />
+
+                        <TextView
+                            android:id="@+id/text3.4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/director4"
+                            android:layout_toEndOf="@+id/director4"
+                            android:text=" Simon Kinberg" />
+
+                        <TextView
+                            android:id="@+id/fecha4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignStart="@+id/titulo4"
+                            android:layout_below="@+id/director4"
+                            android:layout_marginTop="-39dp"
+                            android:text="@string/fecha"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/text4.4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/fecha4"
+                            android:layout_toEndOf="@+id/genero4"
+                            android:text="@string/text_fecha4"
+                            android:textSize="14sp" />
+
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+                <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                    android:layout_width="match_parent"
+                    android:layout_height="149dp"
+                    card_view:cardCornerRadius="4dp"
+                    card_view:cardElevation="4dp"
+                    card_view:cardUseCompatPadding="true">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerHorizontal="true"
+                        android:layout_centerInParent="true"
+                        android:layout_centerVertical="true"
+                        android:paddingLeft="10dp"
+                        android:weightSum="1">
+
+                        <TextView
+                            android:id="@+id/titulo5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginTop="14dp"
+                            android:text="@string/titulo"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/genero5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignStart="@+id/titulo5"
+                            android:layout_marginTop="41dp"
+                            android:layout_weight="0.46"
+                            android:text="@string/genero"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold" />
+
+                        <ImageView
+                            android:id="@+id/imageView5"
+                            android:layout_width="157dp"
+                            android:layout_height="96dp"
+                            android:layout_alignParentEnd="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginTop="15dp"
+                            android:src="@drawable/jamesbond" />
+
+                        <TextView
+                            android:id="@+id/director5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentBottom="true"
+                            android:layout_alignStart="@+id/titulo5"
+                            android:layout_marginBottom="47dp"
+                            android:text="Director:"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/text1.5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/titulo5"
+                            android:layout_toEndOf="@+id/genero5"
+                            android:text="James Bond 25" />
+
+                        <TextView
+                            android:id="@+id/text2.5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/genero5"
+                            android:layout_toEndOf="@+id/director5"
+                            android:text="@string/text_genero5" />
+
+                        <TextView
+                            android:id="@+id/text3.5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/director5"
+                            android:layout_toEndOf="@+id/director5"
+                            android:text=" Cary Fukunaga" />
+
+                        <TextView
+                            android:id="@+id/fecha5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignStart="@+id/titulo5"
+                            android:layout_below="@+id/director5"
+                            android:layout_marginTop="-39dp"
+                            android:text="@string/fecha"
+                            android:textColor="@android:color/black"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/text4.5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignTop="@+id/fecha5"
+                            android:layout_toEndOf="@+id/genero5"
+                            android:text="@string/text_fecha5"
+                            android:textSize="14sp" />
+
+                    </RelativeLayout>
+                </android.support.v7.widget.CardView>
+
+            </LinearLayout>
+        </ScrollView>
     </LinearLayout>
 </FrameLayout>

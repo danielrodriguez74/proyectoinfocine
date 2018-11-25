@@ -58,33 +58,37 @@
 
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Daniel Andrés Rodriguez"
-                            android:textColor="@color/colorPrimaryDark"
-                            android:textSize="12dp"
-                            android:textStyle="italic" />
+                            android:text="Daniel Andrés Rodriguez Acosta"
+                            android:textAlignment="center"
+                            android:textColor="#030303"
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
 
                         <TextView
 
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="sans-serif-condensed"
-                            android:text="Ingeniero de Sistemas"
-                            android:textColor="@android:color/darker_gray" />
+                            android:text="@string/profesion"
+                            android:textAlignment="center"
+                            android:textColor="@color/cardview_dark_background" />
 
                         <TextView
 
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="sans-serif-condensed"
-                            android:text="UNIVERSIDAD MARIANA"
-                            android:textColor="@android:color/darker_gray" />
+                            android:text="@string/universidad"
+                            android:textAlignment="center"
+                            android:textColor="@color/cardview_dark_background" />
 
                         <TextView
 
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="danielandrodriguez@umariana.edu.co"
-                            android:textColor="@android:color/darker_gray"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimary"
                             android:textStyle="italic" />
                     </LinearLayout>
 
@@ -123,33 +127,37 @@
 
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
-                            android:text="Jhon Jairo Narváez"
+                            android:text="Jhon Jairo Narváez Prado"
+                            android:textAlignment="center"
                             android:textColor="@color/colorPrimaryDark"
-                            android:textSize="12dp"
-                            android:textStyle="italic" />
+                            android:textSize="14sp"
+                            android:textStyle="bold" />
 
                         <TextView
 
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="sans-serif-condensed"
-                            android:text="Ingeniero de Sistemas"
-                            android:textColor="@android:color/darker_gray" />
+                            android:text="@string/profesion"
+                            android:textAlignment="center"
+                            android:textColor="@color/cardview_dark_background" />
 
                         <TextView
 
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:fontFamily="sans-serif-condensed"
-                            android:text="UNIVERSIDAD MARIANA"
-                            android:textColor="@android:color/darker_gray" />
+                            android:text="@string/universidad"
+                            android:textAlignment="center"
+                            android:textColor="@color/cardview_dark_background" />
 
                         <TextView
 
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:text="jhonnarvaez@umariana.edu.co"
-                            android:textColor="@android:color/darker_gray"
+                            android:textAlignment="center"
+                            android:textColor="@color/colorPrimary"
                             android:textStyle="italic" />
                     </LinearLayout>
 

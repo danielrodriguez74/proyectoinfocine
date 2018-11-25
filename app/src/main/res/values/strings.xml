@@ -5,7 +5,42 @@
     <string name="nav_header_title">Android Studio</string>
     <string name="nav_header_subtitle">android.studio@android.com</string>
     <string name="nav_header_desc">Navigation header</string>
-    <string name="action_settings">Settings</string>
+
+    <!-- Fragment Inicio -->
+    <string name="action_settings">Ajustes</string>
+    <string name="BIENVENIDOS">BIENVENIDOS</string>
+    <string name="text_inicio">Aquí podrás encontrar información sobre los cines de la ciudad de Pasto (Nariño), También encontraras las fechas de lanzamiento de las películas más esperadas para el 2019.</string>
+
+    <!-- Navegador -->
+    <string name="inicio">Inicio</string>
+    <string name="estrenos">Estrenos</string>
+    <string name="cines">Cines</string>
+    <string name="acerca_de">Acerca de</string>
+    <string name="salir">Salir</string>
+
+    <!-- Fragment Estrenos-->
+    <string name="titulo">Título:</string>
+    <string name="genero">Género:</string>
+    <string name="text_genero1">Acción, Ciencia Ficción</string>
+    <string name="text_genero2">Acción, Fantasia, Ciencia Ficción</string>
+    <string name="text_genero4">Acción, Aventura, Ciencia Ficción</string>
+    <string name="text_genero5">Acción, Drama, Triller</string>
+    <string name="fecha">Fecha:</string>
+    <string name="text_fecha1">Viernes 8 de marzo de 2019</string>
+    <string name="text_fecha2">Abril de 2019</string>
+    <string name="text_fecha3">Mayo de 2019</string>
+    <string name="text_fecha4">Junio de 2019</string>
+    <string name="text_fecha5">Noviembre de 2019</string>
+
+    <!-- Fragment Cines-->
+    <string name="titulo_cines">Cines de Pasto</string>
+    <string name="info_cinemark">Cinemark Holdings, Inc. es una cadena de cines con operaciones en Estados Unidos, Argentina, Brasil, Bolivia, Chile, Colombia, Costa Rica, Curaçao, Ecuador, Perú, Paraguay, Panamá, Guatemala, Honduras, Nicaragua y El Salvador. Su sede corporativa está localizada en Plano, Texas, Estados Unidos.</string>
+    <string name="info_royalfilms">Royal Films es una sociedad familiar que inició sólo con un teatro en el corazón de la ciudad de Barranquilla, pero no fue suficiente colocar un entretenimiento nuevo, sino formar como cultura la afición de los colombianos.</string>
+    <string name="info_valledeatriz">Cinemas es una compañía exhibidora de cine que nació en el año 2000, cuenta con 4 Múltiplex en la Ciudad de Pasto -Nariño. con capacidad para más trescientos espectadores, por cinema en el Centro Comercial Valle de Atriz, en la ciudad de Pasto.</string>
+
+    <!-- Fragment Acerca de-->
+    <string name="profesion">Ingeniero de Sistemas</string>
+    <string name="universidad">UNIVERSIDAD MARIANA</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>

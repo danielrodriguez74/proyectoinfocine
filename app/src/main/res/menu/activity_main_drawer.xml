@@ -7,22 +7,22 @@
         <item
             android:id="@+id/nav_inicio"
             android:icon="@drawable/nav_inicio"
-            android:title="Inicio" />
+            android:title="@string/inicio" />
         <item
         android:id="@+id/nav_cartelera"
         android:icon="@drawable/nav_cartelera"
-        android:title="Estrenos" />
+        android:title="@string/estrenos" />
         <item
             android:id="@+id/nav_cines"
             android:icon="@drawable/nav_cines"
-            android:title="Cines" />
+            android:title="@string/cines" />
         <item
             android:id="@+id/nav_acercade"
             android:icon="@drawable/nav_acercade"
-            android:title="Acerca de" />
+            android:title="@string/acerca_de" />
         <item
             android:id="@+id/nav_salir"
             android:icon="@drawable/nav_salir"
-            android:title="Salir" />
+            android:title="@string/salir" />
     </group>
 </menu>

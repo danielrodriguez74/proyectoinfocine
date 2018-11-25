@@ -19,7 +19,7 @@ import android.widget.Button;
 
 
 public class MainActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener, FragmentInicio.OnFragmentInteractionListener, FragmentEstreno.OnFragmentInteractionListener {
+        implements NavigationView.OnNavigationItemSelectedListener, FragmentInicio.OnFragmentInteractionListener, FragmentEstreno.OnFragmentInteractionListener, FragmentCine.OnFragmentInteractionListener {
 
     @Override
     public void onFragmentInteraction(Uri uri) {
@@ -101,6 +101,8 @@ public class MainActivity extends AppCompatActivity
             selecionado = true;
 
         } else if (id == R.id.nav_cines) {
+            fragment = new FragmentCine();
+            selecionado = true;
 
         } else if (id == R.id.nav_acercade) {
             AlertDialog.Builder uBuilder2 = new AlertDialog.Builder(MainActivity.this);

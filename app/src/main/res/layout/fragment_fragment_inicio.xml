@@ -16,15 +16,29 @@
         <ImageView
             android:id="@+id/imageView2"
             android:layout_width="match_parent"
-            android:layout_height="185dp"
+            android:layout_height="200dp"
             android:src="@drawable/logoppal" />
 
         <TextView
             android:id="@+id/textView2"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="BIENVENIDOS"
+            android:layout_height="63dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/BIENVENIDOS"
             android:textAlignment="center"
+            android:textColor="#FF2B2BCA"
+            android:textSize="40sp"
             android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textInicio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="@string/text_inicio"
+            android:textAlignment="center"
+            android:textAllCaps="false"
+            android:textColor="@color/cardview_dark_background"
+            android:textSize="24sp" />
     </LinearLayout>
 </FrameLayout>

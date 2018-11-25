@@ -22,12 +22,23 @@
         android:id="@+id/gifimageView"
         android:layout_width="163dp"
         android:layout_height="137dp"
-        android:layout_marginBottom="92dp"
+        android:layout_marginBottom="56dp"
         android:layout_marginEnd="110dp"
         android:layout_marginStart="111dp"
         android:src="@drawable/loadpuntos"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:layout_marginStart="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/gifimageView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/infocinesplash" />
 
 </android.support.constraint.ConstraintLayout>
